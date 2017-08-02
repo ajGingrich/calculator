@@ -1,4 +1,4 @@
-# Build a Simon Game
+# Build a JavaScript Calculator
 
 Objective 
 ------
