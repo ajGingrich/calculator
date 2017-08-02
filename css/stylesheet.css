@@ -1,0 +1,107 @@
+/** {
+    border: 0.1px dashed black;
+}*/
+
+body {
+    background-color: #cccccc;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+#text {
+    padding-top: 5px;
+    font-size: 24px;
+    font-family: Verdana, serif;
+}
+#center {
+    position: relative;
+    background-color: #1a1a1a;
+    margin-top: 10px;
+    border-radius: 15px;
+    height: 520px;
+    width: 340px;
+}
+#text {
+    margin-top: 5px;
+}
+#screen {
+    background-color: #595959;
+    margin-top: 15px;
+    width: 300px;
+    margin-left: 20px;
+    height: 70px;
+    border-radius: 5px;
+}
+
+#clear {
+    width: 145px;
+}
+#zero {
+    width: 145px;
+    height: 60px;
+    background: white;
+    border-radius: 5px;
+    color: black;
+    font-size: 24px;
+    margin-top: -60px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#decimal {
+    width: 60px;
+    height: 60px;
+    background: white;
+    border-radius: 5px;
+    color: black;
+    font-size: 24px;
+    margin-top: -60px;
+    margin-left: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#equals {
+    height: 135px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 20px 0 20px;
+}
+.wrapper div {
+    width: 60px;
+    height: 60px;
+    background: white;
+    border-radius: 5px;
+    color: black;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#result {
+    position: absolute;
+    right: 25px;
+    color: black;
+    font-size: 38px;
+    margin-top: 15px;
+}
+.wrapper div:hover {
+    cursor: pointer;
+}
+#zero:hover {
+   cursor: pointer;
+}
+#decimal:hover {
+    cursor: pointer;
+}
+
